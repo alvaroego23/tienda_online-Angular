@@ -1,0 +1,23 @@
+:host{
+    position: relative;
+    display: block ;
+}
+.content{
+    display: block;
+    min-height: calc(100vh - 60px - 40px - 60px);
+    width: 64%;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+
+}
+.product{
+    display: inline-block;
+}
+.cart{
+    background-color: rgb(55, 91, 223);
+    color:white;
+    position: absolute;
+    left: 800px;
+    z-index: 100;
+}
